@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import en from "@/shared/messages/en.json"
-import ru from "@/shared/messages/ru.json"
+import ru from "@/shared/messages/ru.json";
+import en from "@/shared/messages/en.json";
 
 interface LanguageStore {
   language: "ru" | "en";
