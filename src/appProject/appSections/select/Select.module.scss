@@ -16,3 +16,24 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .Select {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    .select {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      select {
+        padding: 5px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+        outline: none;
+      }
+    }
+  }
+}

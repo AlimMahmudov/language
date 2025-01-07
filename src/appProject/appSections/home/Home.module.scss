@@ -34,3 +34,50 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  #Home {
+    .home {
+      background: url("https://64.media.tumblr.com/7e278e63ff2c9c0b100eaa4bbd0d3948/tumblr_omk5k4Uj9N1tedwcmo9_r1_500.gif")
+        no-repeat center/cover fixed;
+      max-width: 100%;
+      max-height: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding: 50px 10px;
+      display: flex;
+      justify-content: center;
+      .box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        background: #000000c7;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+        height: 100%;
+        img {
+          //   width: 200px;
+          width: 100%;
+          border-radius: 5px;
+        }
+
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
