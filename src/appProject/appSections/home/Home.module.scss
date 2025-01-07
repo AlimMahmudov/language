@@ -1,0 +1,16 @@
+#Home {
+  .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://64.media.tumblr.com/7e278e63ff2c9c0b100eaa4bbd0d3948/tumblr_omk5k4Uj9N1tedwcmo9_r1_500.gif")
+        no-repeat center/cover fixed;
+
+    max-width: 100%;
+    max-height: 800px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    img {
+      width: 300px;
+    }
+  }
+}
