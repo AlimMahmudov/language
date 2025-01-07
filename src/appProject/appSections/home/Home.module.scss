@@ -1,30 +1,35 @@
 #Home {
   .home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("https://64.media.tumblr.com/7e278e63ff2c9c0b100eaa4bbd0d3948/tumblr_omk5k4Uj9N1tedwcmo9_r1_500.gif")
-        no-repeat center/cover fixed;
-
+    background: url("https://64.media.tumblr.com/7e278e63ff2c9c0b100eaa4bbd0d3948/tumblr_omk5k4Uj9N1tedwcmo9_r1_500.gif")
+      no-repeat center/cover fixed;
     max-width: 100%;
     max-height: 800px;
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    img {
-      width: 300px;
-    }
-
-    .text {
+    .box {
       display: flex;
-      flex-direction: column;
-      gap: 20px;
-      h1 {
-        font-size: 28px;
+      justify-content: center;
+      gap: 30px;
+      background: #000000c7;
+      padding: 30px;
+      border-radius: 10px;
+      img {
+        width: 300px;
       }
-      p {
-        font-size: 18px;
-        width: 500px;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1 {
+          font-size: 28px;
+        }
+        p {
+          font-size: 18px;
+          width: 500px;
+        }
       }
     }
   }
