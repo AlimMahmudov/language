@@ -2,6 +2,8 @@
 import { useLanguageStore } from "@/shared/stores/UseLanguageStores";
 import React from "react";
 import scss from "./Home.module.scss";
+import Image from "next/image";
+import jestokiy from "@/shared/image/jv.jpg";
 
 const Home = () => {
   const { t } = useLanguageStore();
@@ -10,14 +12,10 @@ const Home = () => {
       <div className="container">
         <div className={scss.home}>
           <div className={scss.box}>
-            <img
-              src="https://m.media-amazon.com/images/I/91g0NtLvNuL._UF1000,1000_QL80_.jpg"
-              alt=""
-            />
-
+            <Image width={300} height={400} src={jestokiy} alt="" />
             <div className={scss.text}>
               <h1>{t("Home.title")}</h1>
-              <p>{t("Home.desc")} </p>
+              <p>{t("Home.desc")}</p>
             </div>
           </div>
         </div>
