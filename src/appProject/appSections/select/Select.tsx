@@ -17,7 +17,7 @@ const Select = () => {
         <div className={scss.select}>
           <select onChange={handleChangeLanguage} value={language}>
             <option value="ru">RU</option>
-            <option value="ky">EN</option>
+            <option value="en">EN</option>
           </select>
         </div>
       </div>
